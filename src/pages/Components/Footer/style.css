@@ -1,0 +1,18 @@
+/* footer section starts */
+
+.footer{
+    background-color: rgb(38,41,51);
+    text-align: center;
+    color: #fff;
+    padding: 1em 0;
+}
+
+/* tab responsiveness starts*/
+@media (max-width: 768px){
+    .footer{
+        font-size: 0.8rem;
+    }
+}
+/* tab responsiveness ends*/
+
+/* footer section ends */

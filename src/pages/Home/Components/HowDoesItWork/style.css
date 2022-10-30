@@ -1,0 +1,149 @@
+/* howdoesitwork section starts */
+
+.howdoesitwork {
+  margin-bottom: 10em;
+}
+
+.howdoesitwork-wrap {
+  text-align: center;
+}
+
+.howdoesitwork-heading {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 1em;
+}
+
+.howdoesitwork-heading span {
+  color: var(--secondary-color);
+}
+
+.howdoesitwork-inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3em;
+}
+
+.howdoesitwork-section {
+  border: 1px solid rgba(51, 27, 27, 0.18);
+  border-bottom: 2px solid var(--main-color);
+  /* width: 25%; */
+  padding: 3em 3em;
+  position: relative;
+  border-radius: 8px;
+}
+
+.howdoesitwork-index {
+  color: var(--main-color);
+  font-size: 4rem;
+  font-weight: 600;
+  position: absolute;
+  top: 0.05em;
+  right: 0.2em;
+  /* margin: 1px 10px; */
+}
+
+.howdoesitwork-img {
+  margin-bottom: 1em;
+  width: 40%;
+}
+
+.howdoesitwork-subheading {
+  margin-bottom: 0.5em;
+  font-size: 1.3rem;
+  /* color: rgb(61, 61, 61); */
+}
+
+.howdoesitwork-p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgb(61, 61, 61);
+}
+
+/* tab responsiveness starts*/
+@media (max-width: 768px) {
+  .howdoesitwork {
+    margin-bottom: 6em;
+  }
+
+  .howdoesitwork-heading {
+    font-size: 1.4rem;
+  }
+
+  .howdoesitwork-section {
+    padding: 1.5em;
+  }
+
+  .howdoesitwork-index {
+    font-size: 2rem;
+  }
+
+  .howdoesitwork-img {
+    width: 30%;
+  }
+
+  .howdoesitwork-subheading {
+    font-size: 0.9rem;
+  }
+
+  .howdoesitwork-p {
+    font-size: 0.7rem;
+  }
+}
+/* tab responsiveness ends*/
+
+/* mobile responsiveness starts*/
+@media (max-width: 414px) {
+  .howdoesitwork-heading {
+    font-size: 2rem;
+    margin-bottom: 1em;
+  }
+
+  .howdoesitwork-inner {
+    flex-direction: column;
+    display: flex;
+    grid-gap: 0.8em;
+  }
+
+  .howdoesitwork-section {
+    display: flex;
+    width: 100%;
+    padding: 0em;
+    align-items: center;
+    border: none;
+  }
+
+  .howdoesitwork-index {
+    font-size: 1.5rem;
+    margin: 0px 5px;
+  }
+
+  .howdoesitwork-img {
+    width: 20%;
+    height: 40%;
+    padding-right: 0.5em;
+  }
+
+  .howdoesitwork-info {
+    text-align: left;
+    padding-left: 0.5em;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+  }
+
+  .howdoesitwork-subheading {
+    font-size: 1.2rem;
+    margin-bottom: 0.3em;
+  }
+
+  .howdoesitwork-p {
+    width: 87%;
+    word-spacing: 0.1rem;
+    font-size: 0.8rem;
+  }
+}
+/* mobile responsiveness ends*/
+
+/* howdoesitwork section ends */

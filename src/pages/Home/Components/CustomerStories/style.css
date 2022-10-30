@@ -1,0 +1,198 @@
+/* customerStories section starts */
+
+.customerstories {
+  margin-bottom: 10em;
+}
+
+.customerstories-wrap {
+  text-align: center;
+}
+
+.customerstories-heading {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 1em;
+}
+
+.customerstories-heading span {
+  color: var(--secondary-color);
+}
+
+.customerstories-inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4em;
+}
+
+.customerstories-sec {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #7deddc, #11d1b8);
+  color: #000;
+  box-shadow: 7px 7px 5px rgba(29, 211, 187, 0.18);
+  padding: 0.5em;
+}
+
+.customerstories-info {
+  display: flex;
+  align-items: center;
+  padding: 1.8em 2em;
+}
+
+.customerstories-img {
+  width: 5.5em;
+  height: 5.5em;
+  border-radius: 50%;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.customerstories-detail {
+  margin-left: 1em;
+  text-align: left;
+}
+
+.customerstories-name {
+  font-size: 1.2rem;
+  margin-bottom: 0.2em;
+}
+
+.customerstories-place {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.customerstories-tell {
+  padding: 0 2em 2.5em 2em;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #000;
+  line-height: 1.4rem;
+  word-spacing: 0.4em;
+  text-align: left;
+}
+
+/* tab responsiveness starts*/
+@media (max-width: 768px) {
+  .customerstories {
+    margin-bottom: 6em;
+  }
+
+  .customerstories-heading {
+    font-size: 1.4rem;
+  }
+
+  .customerstories-inner {
+    grid-gap: 0.8em;
+  }
+
+  .customerstories-sec {
+    padding: 0.8rem;
+  }
+
+  .customerstories-info {
+    padding: 0.5em 0.8em 0.5em 0;
+    justify-content: left;
+  }
+
+  .customerstories-img {
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    border: 0.2em solid rgba(26, 226, 198, 0.3);
+  }
+
+  .customerstories-detail {
+    margin-left: 0.5em;
+    text-align: left;
+  }
+
+  .customerstories-name {
+    font-size: 0.8rem;
+    margin-bottom: 0.1em;
+  }
+
+  .customerstories-place {
+    font-size: 0.6rem;
+    font-weight: 500;
+  }
+
+  .customerstories-tell {
+    padding: 1.5em 1em;
+    font-size: 0.65rem;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+    line-height: 0.8rem;
+    word-spacing: 0.2em;
+  }
+}
+/* tab responsiveness ends*/
+
+/* mobile responsiveness starts*/
+@media (max-width: 414px) {
+  .customerstories-wrap {
+    text-align: center;
+  }
+
+  .customerstories-heading {
+    font-size: 2rem;
+    margin-bottom: 1em;
+  }
+
+  .customerstories-inner {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    justify-items: center;
+    overflow-x: scroll;
+    padding: 1em;
+  }
+
+  .customerstories-inner::-webkit-scrollbar {
+    display: none;
+  }
+
+  .customerstories-sec {
+    display: flex;
+    width: 18em;
+  }
+
+  .customerstories-info {
+    align-items: center;
+    padding: 0.5em 1em;
+  }
+
+  .customerstories-img {
+    width: 4.5em;
+    height: 4.5em;
+    border-radius: 50%;
+    border: 0.2em solid rgba(26, 226, 198, 0.3);
+  }
+
+  .customerstories-detail {
+    margin-left: 1em;
+  }
+
+  .customerstories-name {
+    font-size: 1rem;
+    margin-bottom: 0.4em;
+  }
+
+  .customerstories-place {
+    font-size: 0.8rem;
+  }
+
+  .customerstories-tell {
+    padding: 2.5em 1.5em;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+    line-height: 1.4rem;
+    word-spacing: 0.3em;
+  }
+}
+/* mobile responsiveness ends*/
+
+/* customerStories section ends */

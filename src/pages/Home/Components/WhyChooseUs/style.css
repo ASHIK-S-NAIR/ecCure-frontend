@@ -1,0 +1,163 @@
+/* whyChooseUs section starts */
+
+.whychooseus {
+  margin-bottom: 10em;
+}
+
+.whychooseus-wrap {
+  text-align: center;
+}
+
+.whychooseus-heading {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 1em;
+}
+
+.whychooseus-heading span {
+  color: var(--secondary-color);
+}
+
+.whychooseus-inner {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.whychooseus-text {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.whychooseus-QA {
+  width: 80%;
+  padding: 1.1em;
+  padding-left: 2em;
+}
+.whychooseus-ques {
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.whychooseus-ans {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  color: rgb(61, 61, 61);
+}
+
+.whychooseus-p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgb(61, 61, 61);
+}
+
+.whychooseus-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.5em;
+}
+
+.whychooseus-sec {
+  font-weight: 600;
+  height: 8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.light-green {
+  background-color: rgba(26, 226, 198, 0.1);
+}
+
+.medium-green {
+  background-color: rgba(26, 226, 198, 0.9);
+}
+
+.dark-green {
+  background-color: rgba(26, 226, 198, 0.3);
+}
+
+/* tab responsiveness starts*/
+@media (max-width: 768px) {
+  .whychooseus {
+    margin-bottom: 6em;
+  }
+
+  .whychooseus-heading {
+    font-size: 1.4rem;
+  }
+
+  .whychooseus-QA {
+    width: 90%;
+    padding: 1em;
+  }
+
+  .whychooseus-ques {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .whychooseus-ans {
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+  }
+
+  .whychooseus-section {
+    grid-gap: 0.5em;
+  }
+
+  .whychooseus-sec {
+    padding: 0.5em;
+    font-size: 0.8rem;
+  }
+}
+/* tab responsiveness ends*/
+
+/* mobile responsiveness starts*/
+@media (max-width: 414px) {
+  .whychooseus-heading {
+    font-size: 2rem;
+    margin-bottom: 1em;
+  }
+
+  .whychooseus-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .whychooseus-text {
+    margin-bottom: 3em;
+  }
+
+  .whychooseus-QA {
+    width: 100%;
+  }
+
+  .whychooseus-ques {
+    font-size: 1.2rem;
+    margin-bottom: 0.4em;
+  }
+
+  .whychooseus-ans {
+    word-spacing: 0.1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+
+  .whychooseus-section {
+    grid-gap: 0.5em;
+  }
+
+  .whychooseus-sec {
+    font-size: 1rem;
+    padding: 0.5em;
+    height: 6em;
+  }
+}
+/* mobile responsiveness ends*/
+
+/* whyChooseUs section ends */
